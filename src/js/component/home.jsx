@@ -10,7 +10,7 @@ import Footer from "./footer.js";
 //create your home component
 const Home = () => {
 	return (
-		<div className="container text-center">
+		<div className="container-fluid text-center mb-2">
 			<Navbar/>
 			<Container_top/>
 			<Container_bottom/>

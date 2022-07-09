@@ -2,17 +2,16 @@ import React from "react";
 
 //create your Card component
 const Card = (props) =>{
-  let stylecard = {width: "14rem"};
+  let stylecard = {width: "auto"};
   return <div className="card" style={stylecard}>
-      <img src="https://placekitten.com/200/283" className="card-img-top" alt="..." />
+      <img src={props.img} className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">{props.title}</h5>
         <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {props.Lorem}
         </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
+        <a href="#" className={props.btn}>
+          {props.Adj}
         </a>
       </div>
     </div>

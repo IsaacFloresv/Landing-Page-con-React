@@ -18,7 +18,7 @@ function Carousel(props){
       </ol>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="http://placekitten.com/g/400/200" className="d-block w-100 h-25" alt="..." />
+          <img src="http://placekitten.com/g/400/280" className="d-block w-100 h-25" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
