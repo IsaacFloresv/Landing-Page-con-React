@@ -1,4 +1,5 @@
 import React from "react";
+Import Card from "./card";
 
 
 //create your first component

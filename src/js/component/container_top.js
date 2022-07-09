@@ -1,13 +1,15 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Carousel from "./carousel";
+import Jumbotron from "./jumbotron";
 
-//create your first component
-const container_top = () => {
-	return (
-		
-	);
+//create your Container_top component
+function Container_top(props){
+	return <div className="container">
+			<Carousel/>,
+			<Jumbotron/>
+		</div>
 };
 
-export default Home;
+export default Container_top;
