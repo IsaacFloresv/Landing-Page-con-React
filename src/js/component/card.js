@@ -2,9 +2,9 @@ import React from "react";
 
 //create your Card component
 const Card = (props) =>{
-  let stylecard = {width: "18rem"};
+  let stylecard = {width: "14rem"};
   return <div className="card" style={stylecard}>
-      <img src="..." className="card-img-top" alt="..." />
+      <img src="https://placekitten.com/200/283" className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">
